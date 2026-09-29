@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IRONCITY GYM - Nsukka</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="logo">IRONCITY GYM</div>
+  <div class="nav-links">Behind Ogige Main Market, Nsukka</div>
+</div>
+
+<div class="hero">
+  <div class="hero-text">
+    <h1>BUILD YOUR <span>IRON BODY</span></h1>
+    <p>No.1 Gym in Nsukka. No excuses, just results.</p>
+    <div class="hero-btns">
+      <a href="#register" class="btn-green">Join Now</a>
+      <a href="https://maps.google.com/?q=Ogige+Main+Market+Nsukka" target="_blank" class="btn-outline">📍 Find Us on Map</a>
+    </div>
+  </div>
+</div>
+
+<div class="plans-section">
+  <div class="section-title">OUR PLANS</div>
+  <div class="plans">
+    <div class="plan-card">
+      <div class="plan-name">Daily</div>
+      <div class="plan-price">₦1,500</div>
+      <div class="plan-duration">1 Day Access</div>
+    </div>
+    <div class="plan-card">
+      <div class="plan-name">Weekly</div>
+      <div class="plan-price">₦5,000</div>
+      <div class="plan-duration">7 Days Access</div>
+    </div>
+    <div class="plan-card popular">
+      <div class="badge">MOST POPULAR</div>
+      <div class="plan-name">Monthly</div>
+      <div class="plan-price">₦12,000</div>
+      <div class="plan-duration">30 Days Access</div>
+    </div>
+    <div class="plan-card">
+      <div class="plan-name">3 Months</div>
+      <div class="plan-price">₦30,000</div>
+      <div class="plan-duration">90 Days Access</div>
+    </div>
+  </div>
+</div>
+
+<div class="form-section" id="register">
+  <div class="form-box">
+    <div class="form-title">REGISTER NOW</div>
+    <div class="form-subtitle">Pay on arrival at the gym. Fill form to reserve your slot.</div>
+
+    <form id="gymForm">
+      <div class="input-group">
+        <label>Full Name</label>
+        <input type="text" id="name" required placeholder="e.g Chinedu Okoro">
+      </div>
+      <div class="input-group">
+        <label>Phone Number</label>
+        <input type="tel" id="phone" required placeholder="e.g 08012345678">
+      </div>
+      <div class="input-group">
+        <label>Email</label>
+        <input type="email" id="email" required placeholder="e.g chinedu@gmail.com">
+      </div>
+      <div class="input-group">
+        <label>Select Plan</label>
+        <select id="plan" required>
+          <option value="">-- Choose Plan --</option>
+          <option value="Daily">Daily - ₦1,500</option>
+          <option value="Weekly">Weekly - ₦5,000</option>
+          <option value="Monthly">Monthly - ₦12,000</option>
+          <option value="3 Months">3 Months - ₦30,000</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <button type="submit" id="submitBtn" class="btn-green full">Submit Registration</button>
+      </div>
+      <div id="message"></div>
+    </form>
+  </div>
+</div>
+
+<div class="footer">
+  <div>IRONCITY GYM © 2026 | Behind Ogige Main Market, Nsukka</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
